@@ -1,6 +1,6 @@
 const router = require("express").Router()
-const controller = require("./games.controller")
+const { getAllGames } = require("./games.controller")
 
-router.get("/", controller.getAllGames)
+router.get("/", getAllGames)
 
 module.exports = router

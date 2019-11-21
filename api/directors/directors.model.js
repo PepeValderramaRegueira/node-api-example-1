@@ -11,6 +11,6 @@ const directorsSchema = new mongoose.Schema(
   }
 )
 
-const Directors = mongoose.model('directors', directorsSchema)
+const Directors = mongoose.model('director', directorsSchema)
 
-module.exports = Directors
+module.exports = { Directors }

@@ -2,24 +2,24 @@
   {
     "name": "The Witcher 3: Wild Hunt",
     "producers": [
-      { "$oid": "5dd6bea421d5a3603434ff68" },
-      { "$oid": "5dd6bea421d5a3603434ff69" }
+      "5dd6bea421d5a3603434ff68",
+      "5dd6bea421d5a3603434ff69"
     ],
     "directors": [
-      { "$oid": "5dd6c08b6003fbbaa0c861aa" },
-      { "$oid": "5dd6c08b6003fbbaa0c861ab" },
-      { "$oid": "5dd6c08b6003fbbaa0c861ac" }
+      "5dd6c08b6003fbbaa0c861aa",
+      "5dd6c08b6003fbbaa0c861ab",
+      "5dd6c08b6003fbbaa0c861ac"
     ],
     "platforms": [
-      { "$oid": "5dd6c13865c2a462443bcb49" },
-      { "$oid": "5dd6c13865c2a462443bcb50" },
-      { "$oid": "5dd6c13865c2a462443bcb51" },
-      { "$oid": "5dd6c13865c2a462443bcb52" }
+      "5dd6c13865c2a462443bcb49",
+      "5dd6c13865c2a462443bcb50",
+      "5dd6c13865c2a462443bcb51",
+      "5dd6c13865c2a462443bcb52"
     ],
     "genres": [
-      { "$oid": "5dd6c1cbc84118d33c1953e3" },
-      { "$oid": "5dd6c1cbc84118d33c1953e4" },
-      { "$oid": "5dd6c1cbc84118d33c1953e5" }
+      "5dd6c1cbc84118d33c1953e3",
+      "5dd6c1cbc84118d33c1953e4",
+      "5dd6c1cbc84118d33c1953e5"
     ],
     "releaseDate": "1985-12-09"
   }

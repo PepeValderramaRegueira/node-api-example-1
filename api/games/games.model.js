@@ -4,10 +4,10 @@ const ObjectId = mongoose.Schema.Types.ObjectId
 const gamesSchema = new mongoose.Schema(
   {
     name: { type: String },
-    producers: [ { type: ObjectId, ref: 'producers' } ],
-    directors: [ { type: ObjectId, ref: 'directors' } ],
-    platforms: [ { type: ObjectId, ref: 'platforms' } ],
-    genres: [ { type: ObjectId, ref: 'genres' } ],
+    producers: [ { type: ObjectId, ref: 'Producers' } ],
+    directors: [ { type: ObjectId, ref: 'director' } ],
+    platforms: [ { type: ObjectId, ref: 'platform' } ],
+    genres: [ { type: ObjectId, ref: 'genre' } ],
     releaseDate: { type: Date }
   },
   {
@@ -15,6 +15,6 @@ const gamesSchema = new mongoose.Schema(
   }
 )
 
-const Games = mongoose.model('games', gamesSchema)
+const Games = mongoose.model('game', gamesSchema)
 
-module.exports = Games
+module.exports = { Games }

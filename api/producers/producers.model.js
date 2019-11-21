@@ -11,6 +11,6 @@ const producersSchema = new mongoose.Schema(
   }
 )
 
-const Producers = mongoose.model('producers', producersSchema)
+const Producers = mongoose.model('Producers', producersSchema)
 
-module.exports = Producers
+module.exports = { Producers }

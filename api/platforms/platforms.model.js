@@ -9,6 +9,6 @@ const platformsSchema = new mongoose.Schema(
   }
 )
 
-const Platforms = mongoose.model('platforms', platformsSchema)
+const Platforms = mongoose.model('platform', platformsSchema)
 
-module.exports = Platforms
+module.exports = { Platforms }
