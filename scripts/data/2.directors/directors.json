@@ -1,0 +1,20 @@
+[
+  {
+    "_id": { "$oid": "5dd6c08b6003fbbaa0c861aa" },
+    "name": "Konrad Tomaszkiewicz",
+    "age": 33,
+    "birthDate": "1986-12-02"
+  },
+  {
+    "_id": { "$oid": "5dd6c08b6003fbbaa0c861ab" },
+    "name": "Mateusz Kanik",
+    "age": 41,
+    "birthDate": "1978-12-10"
+  },
+  {
+    "_id": { "$oid": "5dd6c08b6003fbbaa0c861ac" },
+    "name": "Sebastian Stępień",
+    "age": 45,
+    "birthDate": "1974-12-23"
+  }
+]

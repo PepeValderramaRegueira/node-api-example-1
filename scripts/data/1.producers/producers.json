@@ -1,0 +1,14 @@
+[
+  {
+    "_id": { "$oid": "5dd6bea421d5a3603434ff68" },
+    "name": "Piotr Krzywonosiuk",
+    "age": 34,
+    "birthDate": "1985-12-09"
+  },
+  {
+    "_id": { "$oid": "5dd6bea421d5a3603434ff69" },
+    "name": "Jędrzej Mróz",
+    "age": 39,
+    "birthDate": "1980-12-19"
+  }
+]

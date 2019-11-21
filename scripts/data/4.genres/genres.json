@@ -1,0 +1,14 @@
+[
+  {
+    "_id": { "$oid": "5dd6c1cbc84118d33c1953e3" },
+    "name": "Action role playing"
+  },
+  {
+    "_id": { "$oid": "5dd6c1cbc84118d33c1953e4" },
+    "name": "Fantasy"
+  },
+  {
+    "_id": { "$oid": "5dd6c1cbc84118d33c1953e5" },
+    "name": "Adventure"
+  }
+]

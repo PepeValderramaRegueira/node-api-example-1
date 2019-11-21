@@ -1,0 +1,18 @@
+[
+  {
+    "_id": { "$oid": "5dd6c13865c2a462443bcb49" },
+    "name": "Microsoft Windows"
+  },
+  {
+    "_id": { "$oid": "5dd6c13865c2a462443bcb50" },
+    "name": "Play Station 4"
+  },
+  {
+    "_id": { "$oid": "5dd6c13865c2a462443bcb51" },
+    "name": "Xbox One"
+  },
+  {
+    "_id": { "$oid": "5dd6c13865c2a462443bcb52" },
+    "name": "Nintendo Switch"
+  }
+]
