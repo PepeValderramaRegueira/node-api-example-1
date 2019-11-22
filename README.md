@@ -13,6 +13,15 @@ es que en lugar de devolver JSONs tendréis que hacer el res.render.
 
 ## Puesta a punto de la API
 
+### Archivo .env
+
+Hay que añadir el archivo .env con las siguientes variables:
+
+```
+  PORT=3000
+  DB=mongodb://127.0.0.1:27017/node-api-example
+```
+
 ### Poblar la base de datos
 
 La API cuenta con un script (situado en la carpeta `/scripts`) el cual servirá para
