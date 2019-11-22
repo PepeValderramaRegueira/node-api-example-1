@@ -32,7 +32,7 @@ manejo bastante potente de los datos que utilizaremos en las semillas. La URL de
 paquete es https://www.npmjs.com/package/mongo-seeding.
 
 Para poblar nuestra base de datos, tenemos que colocarnos en la raíz del proyecto y
-ejecutar el script `seed-db` => `npm run mongo-seed` (asegurarnos de que se está
+ejecutar el script `seed-db` => `npm run seed-db` (asegurarnos de que se está
 ejecutando el servicio de Mongo).
 
 ### Levantar el servidor
