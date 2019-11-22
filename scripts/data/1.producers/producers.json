@@ -3,12 +3,18 @@
     "_id": { "$oid": "5dd6bea421d5a3603434ff68" },
     "name": "Piotr Krzywonosiuk",
     "age": 34,
-    "birthDate": "1985-12-09"
+    "birthDate": "1985-12-09",
+    "createdAt": { "$date": "2019-11-21T11:51:49.509Z" },
+    "updatedAt": { "$date": "2019-11-21T11:51:49.509Z" },
+    "__v": 0
   },
   {
     "_id": { "$oid": "5dd6bea421d5a3603434ff69" },
     "name": "Jędrzej Mróz",
     "age": 39,
-    "birthDate": "1980-12-19"
+    "birthDate": "1980-12-19",
+    "createdAt": { "$date": "2019-11-21T11:51:49.509Z" },
+    "updatedAt": { "$date": "2019-11-21T11:51:49.509Z" },
+    "__v": 0
   }
 ]

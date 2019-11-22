@@ -1,18 +1,30 @@
 [
   {
     "_id": { "$oid": "5dd6c13865c2a462443bcb49" },
-    "name": "Microsoft Windows"
+    "name": "Microsoft Windows",
+    "createdAt": { "$date": "2019-11-21T11:51:49.509Z" },
+    "updatedAt": { "$date": "2019-11-21T11:51:49.509Z" },
+    "__v": 0
   },
   {
     "_id": { "$oid": "5dd6c13865c2a462443bcb50" },
-    "name": "Play Station 4"
+    "name": "Play Station 4",
+    "createdAt": { "$date": "2019-11-21T11:51:49.509Z" },
+    "updatedAt": { "$date": "2019-11-21T11:51:49.509Z" },
+    "__v": 0
   },
   {
     "_id": { "$oid": "5dd6c13865c2a462443bcb51" },
-    "name": "Xbox One"
+    "name": "Xbox One",
+    "createdAt": { "$date": "2019-11-21T11:51:49.509Z" },
+    "updatedAt": { "$date": "2019-11-21T11:51:49.509Z" },
+    "__v": 0
   },
   {
     "_id": { "$oid": "5dd6c13865c2a462443bcb52" },
-    "name": "Nintendo Switch"
+    "name": "Nintendo Switch",
+    "createdAt": { "$date": "2019-11-21T11:51:49.509Z" },
+    "updatedAt": { "$date": "2019-11-21T11:51:49.509Z" },
+    "__v": 0
   }
 ]

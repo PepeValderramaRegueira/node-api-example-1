@@ -1,6 +1,7 @@
 require("dotenv").config()
 const express = require("express")
 const cors = require("cors")
+const bodyParser = require("body-parser")
 
 // Importante: en la carpeta api hay un archivo index.js, el cual exporta las rutas que va
 // a utilizar. Cuando hagamos el require, no es necesario poner require("./api/index").
@@ -16,6 +17,10 @@ const app = express()
 
 // Cors para habilitar las respuestas a las peticiones.
 app.use(cors())
+
+// Habilitar el uso de req.body
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 
 // Rutas para la API.
 app.use("/api", apiRoutes)
