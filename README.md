@@ -70,6 +70,8 @@ este recurso como se muestra a continuación:
   })
 ```
 
+llamamos directamente a las funciones del controlador:
+
 ```javascript
   const router = require("express").Router()
   const { getAllDirectors, getOneDirector, addDirector } = require("./directors.controller")
